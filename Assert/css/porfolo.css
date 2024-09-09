@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+.color-blue {
+  color: #47b2e4;
+}
+.font-size-30 {
+  font-size: 30px;
+}
+
+.blue-temp {
+  background-color: #37517e;
+}
+.py-6 {
+  padding: 5rem 0;
+}
+
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.bold {
+  font-weight: bold;
+}
+
+.h-2 {
+  height: 2rem;
+}
+
+.color-blue2 {
+  color: #37517e;
+}
+.italic {
+  font-style: italic;
+}
+
+button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.color-blue-bg {
+  background-color: #37517e;
+}
+
+/* navbar Section class */
+nav div ul li a.active {
+  color: #47b2e4 !important;
+}
+
+nav div ul li a {
+  font-size: 15px;
+  
+}
+.border {
+  border: 1ps solid white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.mobile-navbar-toggler-show {
+  display: block !important;
+  background-color: rgba(43, 43, 43, 0.8);
+  padding: 0 50px 25px 50px;
+  border-radius: 10px;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+
+@media (max-width: 991px) {
+  .navbar-toggler {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-navbar-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  #navbarList {
+    display: flex;
+    align-items: flex-start !important;
+    flex-wrap: wrap;
+  }
+}
+/* navbar Section class End*/
+
+/* connecting-page */
+.connecting-page {
+  padding: 30px 0;
+  background-color: #f3f5fa;
+}
+
+.connecting-page ol li a {
+  text-decoration: none;
+  color: #0ba4eb;
+}
+
+.connecting-page h4 {
+  color: #37517e;
+  font-weight: 700;
+  margin: 0;
+  font-family: "Jost", sans-serif;
+}
+/* connecting-page ENd */
+
+/* portfolio details */
+.project-information {
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.09);
+  margin-bottom: 3rem;
+}
+
+.project-information h4 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.project-information ul {
+  padding-left: 0;
+}
+
+.project-information li {
+  font-family: "Open Sans", sans-serif;
+  opacity: 0.9;
+  list-style-type: none;
+  padding: 7px 0;
+  font-size: 16px;
+}
+
+.project-information li strong {
+  font-weight: 600;
+  opacity: 1;
+  padding-right: 5px;
+}
+
+.project-information li > a {
+  text-decoration: none;
+}
+
+.project-details h4 {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+/* portfolio details End*/
+
+/* newsletter */
+.newsletter {
+  background-color: #f3f5fa;
+}
+.newsletter-tittle {
+  font-weight: 700;
+  color: #37517e;
+}
+.newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+.newsletter .form-input {
+  border: 0;
+  padding: 4px 8px;
+  width: calc(100% - 100px);
+  outline: none;
+}
+
+.newsletter button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #47b2e4;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 50px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter button:hover {
+  background-color: #307a9c;
+  color: #fff;
+}
+/* newsletter End */
+
+/* footer-top */
+h3.company-tittle {
+  color: #37517e;
+  font-weight: 600;
+  font-family: "Jost", sans-serif;
+}
+
+.company-contact > p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.useful h6 {
+  color: #37517e;
+  font-weight: 700;
+  font-family: "Jost", sans-serif;
+}
+.useful ul {
+  padding: 0;
+}
+.useful li {
+  list-style-type: none;
+  padding-top: 15px;
+}
+.useful p {
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.useful-link li a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  transition: all 0.1s;
+}
+
+.useful-link a:hover {
+  color: #58bceb;
+  font-weight: 600;
+}
+
+.greater-icon {
+  font-size: 13px;
+  color: #47b2e4;
+}
+
+.social-media {
+  display: inline-flex;
+}
+
+.social-media li {
+  font-size: 15px;
+  background-color: #47b2e4;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px 0;
+  display: inline-block;
+  transition: all 0.8s;
+}
+
+.social-media li:hover {
+  background-color: #046ea0;
+}
+/* footer-top End */
+
+/* footer-bottom */
+.footer-bottom {
+  background-color: #37517e;
+  color: white;
+  padding: 1.8rem 0;
+}
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+}
+.footer-bottom p > i {
+  font-size: 10px;
+}
+
+.footer-bottom p > strong {
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-bottom p > a {
+  text-decoration: none;
+  color: #58bceb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  transition: all 0.6s;
+}
+
+.footer-bottom p > a:hover {
+  color: #0ba4eb;
+}
